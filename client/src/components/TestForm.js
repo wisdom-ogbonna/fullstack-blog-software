@@ -23,7 +23,7 @@ function TestForm() {
     };
 
     const sendRequest = async () => {
-        const res = await axios.post('http://localhost:8080/api/signup', {
+        const res = await axios.post('https://fullstack-blog-software.onrender.com/api/signup', {
             name: input.name,
             email: input.email,
             password: input.password
